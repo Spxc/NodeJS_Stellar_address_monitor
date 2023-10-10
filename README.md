@@ -1,6 +1,6 @@
 # NodeJS Stellar Address Monitor
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![Node.js CI](https://github.com/Spxc/NodeJS_Stellar_address_monitor/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Spxc/NodeJS_Stellar_address_monitor/actions/workflows/node.js.yml)
 
 ## Description
 
@@ -67,7 +67,7 @@ You can customize the monitoring settings by editing the `.env`, `./data/address
 You can find example of the configuration files by looking at 
 - `.sample.env` (environment file)
 - `./data/addresses.sample.json` (addresses to monitor)
--  `./data/tokens.sample.json` (tokens to push the notifications to)
+- `./data/tokens.sample.json` (tokens to push the notifications to)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -76,7 +76,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you would like to contribute to this project, please open an issue or submit a pull request. We welcome contributions from the community.
 
 ## Contact
-If you have any questions or need assistance, feel free to contact the project maintainer at [your-email@example.com].
+If you have any questions or need assistance, feel free to contact the project maintainer at [no-thanks@nameless.cloud].
 
 ## Acknowledgments
 We would like to thank the Stellar Development Foundation and the open-source community for their contributions to the Stellar ecosystem.
