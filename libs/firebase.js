@@ -6,7 +6,7 @@ const utils = require('./utils')
 /**
  * Load firebase tokens from local file
  */
-const firebase_tokens = require('../data/tokens.json')
+const firebase_tokens = require('../data/tokens.json') ? require('../data/tokens.json') : require('../data/tokens.sample.json')
 
 /**
  * Notify users using Firebase
@@ -33,7 +33,7 @@ const notifyUsers = (event) => {
         /**
          * Push notification to users using the firebase-sdk
          */
-        
+
         /**
          * Resolve the push object or reject with error message
          */
