@@ -6,7 +6,7 @@ const utils = require('./utils')
 /**
  * Load firebase tokens from local file
  */
-const firebase_tokens = require('../data/tokens.json') ? require('../data/tokens.json') : require('../data/tokens.sample.json')
+const firebase_tokens = require('../data/tokens.sample.json')
 
 /**
  * Notify users using Firebase
